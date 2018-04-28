@@ -28,7 +28,7 @@ The package requires valid authentication credentials to access Google Cloud Tex
   export GOOGLE_APPLICATION_CREDENTIALS=/path/to/your-project-credentials.json
   ```
 
-For more information about Authentication, please consult [Google's Authentication Overview](adc).
+For more information about Authentication, please consult [Google's Authentication Overview][adc].
 
 [cloud-console]: https://console.cloud.google.com
 [tts-api]: https://console.cloud.google.com/apis/api/texttospeech.googleapis.com/overview?project=_
@@ -45,7 +45,7 @@ go get -u github.com/giefferre/texttospeech
 To run the example:
 
 ```bash
-go run synthetize.go en "Hello world" output.mp3
+go run synthesize.go en "Hello world" output.mp3
 ```
 
 ## Reference
